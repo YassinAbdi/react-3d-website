@@ -1,0 +1,26 @@
+header {
+    position: absolute;
+    height: 108px;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(59, 174, 212);
+}
+
+      span {
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.04rem;
+      }
+
+.logo {
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.episode {
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
