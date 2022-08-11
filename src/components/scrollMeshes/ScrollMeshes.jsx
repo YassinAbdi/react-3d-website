@@ -1,7 +1,4 @@
 import { Scroll } from '@react-three/drei'
-import Ball from '../ball/Ball'
-import Cone from '../cone/Cone'
-import Torus from '../torus/Torus'
 import './scrollMeshes.css'
 import CrescentLogo from '../../models/logo/Crescent-logo'
 import Bottle from '../../models/bottle/Bottle'
