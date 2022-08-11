@@ -7,6 +7,8 @@ header {
     align-items: center;
     justify-content: space-between;
     color: rgb(59, 174, 212);
+    font-family: Bebas Neue, sans serif;
+    z-index: 999;
 }
 
       span {
@@ -23,4 +25,12 @@ header {
 .episode {
     padding-right: 20px;
     padding-bottom: 40px;
+}
+
+.header-right {
+    cursor: pointer;
+}
+
+.header-left {
+    cursor: pointer;
 }
