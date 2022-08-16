@@ -1,6 +1,6 @@
 h1 {
     font-family: Bebas Neue, sans serif;
-    font-size: 120px;
+    font-size: 110px;
 }
 
 a {
@@ -11,7 +11,7 @@ a {
 #hud-text {
     display: flex;
     width: 40%;
-    line-height: 6.5rem;
+    line-height: 6rem;
     letter-spacing: 0.01em;
     color: rgb(228, 228, 228);
 }
