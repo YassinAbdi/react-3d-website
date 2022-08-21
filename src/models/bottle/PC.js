@@ -7,7 +7,7 @@ export default function PC() {
   useFrame(() => (group.current.rotation.y += -.002))
   const { nodes } = useGLTF('../logos/PC-transformed.glb')
   return (
-    <group scale={.7} rotation={[-Math.PI / -8, 0, 0]} ref={group} dispose={null} position={[2, -15.5, 0]}>
+    <group scale={.7} rotation={[-Math.PI / -8, 0, 0]} ref={group} dispose={null} position={[1, -14, -1]}>
       <mesh castShadow receiveShadow geometry={nodes.mesh_0.geometry} material={nodes.mesh_0.material} />
     </group>
   )

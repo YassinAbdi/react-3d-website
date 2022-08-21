@@ -11,7 +11,7 @@ export default function Bottle() {
   // useFrame(() => (group.current.rotation.y += 0.01));
   const { nodes, materials } = useGLTF('../logos/bottle1-transformed.glb')
   return (
-    <group ref={group} dispose={null} scale={.09} position={[0, -7.8, 0]}>
+    <group ref={group} dispose={null} scale={.09} position={[-1, -10, 0]}>
       <mesh castShadow receiveShadow geometry={nodes.Cube002.geometry} material={materials['Material.001']} />
       <mesh castShadow receiveShadow geometry={nodes.Cube002_1.geometry} material={materials['Material.002']} />
       <mesh castShadow receiveShadow geometry={nodes.Cube002_2.geometry} material={materials['Material.003']} />
