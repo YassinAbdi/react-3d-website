@@ -1,0 +1,28 @@
+form > div {
+  /* position: absolute;
+  top: 280vh;
+  left: 20vw; */
+  text-align: center;
+  margin-top: 280vh;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 100px;
+  padding-bottom: 1vh;
+}
+
+.col-8 {
+  margin-top: 1vh;
+}
+
+/* form > input {
+  padding: 0.5rem;
+  min-width: 20rem;
+} */
+
+@media only screen and (max-width: 900px) {
+  form > div {
+    margin-top: 300vh;
+  }
+}

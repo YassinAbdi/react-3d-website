@@ -1,23 +1,80 @@
 h1 {
-    font-family: Bebas Neue, sans serif;
-    font-size: 80px;
+  font-family: Bebas Neue, sans serif;
 }
 
 a {
-    color: rgb(228, 228, 228);
-    text-decoration: none;
+  color: rgb(228, 228, 228);
+  text-decoration: none;
 }
 
 #hud-text {
-    width: 60%;
-    line-height: 5.5rem;
-    letter-spacing: 0.015em;
-    color: rgb(228, 228, 228);
+  font-size: 60px;
+  width: 60%;
+  line-height: 4rem;
+  letter-spacing: 0.015em;
+  color: rgb(228, 228, 228);
+}
+
+#hud-text1 {
+  font-size: 60px;
+  width: 60%;
+  line-height: 3.7rem;
+  letter-spacing: 0.015em;
+  color: rgb(228, 228, 228);
 }
 
 #hud-text2 {
-    width: 40%;
-    line-height: 5.5rem;
-    letter-spacing: 0.015em;
-    color: rgb(228, 228, 228);
+  font-size: 60px;
+  width: 60%;
+  line-height: 3.5rem;
+  letter-spacing: 0.015em;
+  color: rgb(228, 228, 228);
+  cursor: pointer;
+}
+
+#hud-text3 {
+  font-size: 65px;
+  width: 60%;
+  line-height: 4rem;
+  letter-spacing: 0.015em;
+  color: rgb(228, 228, 228);
+}
+
+#color-tag {
+  font-size: 80px;
+  color: #68b2a0;
+}
+
+@media only screen and (max-width: 900px) {
+  h1 {
+    min-width: 80%;
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #hud-text {
+    margin-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #hud-text1 {
+    margin-top: -10rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #hud-text,
+  #hud-text1,
+  #hud-text2,
+  #hud-text3 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  #color-tag {
+    font-size: 70px;
+  }
 }

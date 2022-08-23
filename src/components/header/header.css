@@ -1,36 +1,37 @@
 header {
-    position: absolute;
-    height: 108px;
-    width: 100%;
-    padding: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: rgb(59, 174, 212);
-    font-family: Bebas Neue, sans serif;
-    z-index: 999;
+  position: absolute;
+  height: 108px;
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #68b2a0;
+  font-family: Bebas Neue, sans serif;
+  z-index: 999;
 }
 
-      span {
-        font-size: 1rem;
-        font-weight: 700;
-        letter-spacing: 0.04rem;
-      }
+span {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.04rem;
+}
 
 .logo {
-    padding-left: 20px;
-    padding-bottom: 40px;
+  padding-left: 20px;
+  padding-bottom: 40px;
 }
 
 .episode {
-    padding-right: 20px;
-    padding-bottom: 40px;
+  padding-right: 20px;
+  padding-bottom: 40px;
 }
 
 .header-right {
-    cursor: pointer;
+  cursor: pointer;
+  color: rgb(248, 248, 248);
 }
 
 .header-left {
-    cursor: pointer;
+  cursor: pointer;
 }

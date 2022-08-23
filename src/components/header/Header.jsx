@@ -1,19 +1,24 @@
-import './header.css'
+// import OrderScreen from "../orderScreen/OrderScreen";
+import "./header.css";
+// import { useState } from "react";
 
 const Header = () => {
-  // const alerts = () => {
-  //   alert("Greatness is coming soon to a farm near you, maybe.")
-  // }
+  // const [isShown, setIsShown] = useState(false);
+
+  // const handleClick = (event) => {
+  //   setIsShown((current) => !current);
+  // };
+
   return (
     <header>
-        <div className='logo'>
-            <span className='header-left'>CRESCENT ROBOTICS</span>
-        </div>
-        <div className='episode'>
-            <span className='header-right'>Greatness Is Coming</span>
-        </div>
+      <div className="logo">
+        <span className="header-left">Effortless</span>
+      </div>
+      <div className="episode">
+        <span className="header-right">Order Soon</span>
+      </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
